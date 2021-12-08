@@ -16,7 +16,9 @@ Run the cell containing the class definitions. Then, run the next cell which def
 
 In the case that frames were saved, VirtualDub can be used to create a video. This software was not written by us; all credit goes to Avery Lee (a copy of the executable files was placed in this GitHub for convenience). For more details on how to use this software, visit https://www.virtualdub.org/.
 
-Our simulations in video form are publically available at https://www.youtube.com/playlist?list=PL2anvfQdkVC6YSsrAosSeLdKwS_g0H3Ts.
+Our simulations in video form are publically available at https://www.youtube.com/playlist?list=PL2anvfQdkVC6YSsrAosSeLdKwS_g0H3Ts. To view these videos in the Jupyter Notebook, run the subsequent cells containing calls to YouTubeVideo.
+
+Finally, to see the SIR models (both the original and the one for reinfection, run the remaining two cells. To obtain the same graphs shown in the images, change the values of the initial_conditions and beta accordingly. Note that the initial conditions if not specified are \[1000,1,0\].
 
 The work breakdown in our group was as follows:
 * Matei Gheorghiu

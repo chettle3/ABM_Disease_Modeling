@@ -3,12 +3,12 @@
 This was my final project for CMSE 202, completed in a group with Matei Gheorghiu, Jared Bloch, and Cong Fu. The project simulates the spread of a disease using an agent-based model, and we compare the results with those found by a traditional SIR compartmental model. My primary role was in coding the base model (from which several variations were made), as well as running and recording the simulations.
 
 To run the code, first ensure that the following packages are installed:
-* numpy
-* matplotlib
-* scipy
-* sympy
-* IPython
-* ipywidgets
+* `numpy`
+* `matplotlib`
+* `scipy`
+* `sympy`
+* `IPython`
+* `ipywidgets`
 
 Run all the cells in order under the "Infectivity Function", "Distance Function", and "Exposure Function" headers. Feel free to interact with any widgets; the widgets do not affect the final model, and are for demonstration purposes only. To modify the average values of the parameters (especially the inflection point in the exposure function), find the cell calling get_var_dist for that parameter, and change the input. Then rerun all cells again.
 
